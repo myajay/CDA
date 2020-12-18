@@ -1,0 +1,57 @@
+HTML: Hyper Text Markup Language
+----
+
+	-- It is used to write and structure the web pages and web sites
+	
+	-- file extension is .html or .htm 
+	
+	-- HTML document starts with a document type declaration i.e <!doctype html> or <!DOCTYPE HTML>(in HTML 5)
+	
+	-- <!doctype> declaration is not an html tag, it is an instruction to the web browser about what version of HTML page is written in. So that the browser knows what type of document to expect.
+	
+		So all the browsers need the doctype, without the doctype, you are forcing the browsers to render in Quirks mode.
+		
+		The most significant use of DOCTYPE is to switch a browser between Quirks mode and Standards mode rendering.
+		
+		
+	-- Elements: it consists of start and end tags
+		<p>
+		<head>
+		<h1>,<h2>,..<h6>
+		<b>
+		<i>
+		<a href="">
+		<body>
+		<br/>
+		<hr/>
+		<div>
+		<pre>
+		
+		Note: HTML 5 elements like header, footer, article, section, aside, main, nav, section are semantic elements means they can define about their contenets whereas elements with class attribute to define the structure and express the meaning of content like div, span(ex: <div class="article"></div>, <span class="red"></span>)
+		
+		
+	-- Example of Basic html looks like:
+	------------------------------------
+		
+			<!doctype html>
+			<html lang="en-US">
+			<body>
+			-----
+			</body>
+			</html>
+			
+			
+	-- Note from the above example:
+	   ---------------------------
+		The language of the document can be declared in the <html> tag. The language is declared with the lang attribute. Declaring a language is important for accessibility applications (screen readers) and search engines. The first two letters specify the language (en). If there is a dialect, use two more letters (US).
+
+
+		
+		
+Note: To display an HTML page correctly, a web browser must know the character set used in the page.
+
+In HTML 4: <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+
+In HTML 5: <meta charset="UTF-8">	
+	
+	

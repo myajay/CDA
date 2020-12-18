@@ -1,0 +1,19 @@
+CSS: stands for Cascading Style Sheets
+
+1. CSS is a language that describes the style of an HTML document, that describes how HTML elements should be displayed
+
+
+2. External stylesheets are stored in CSS files(.css)
+
+3. CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. With an external stylesheet file, you can change the look of an entire website by changing just one file!
+
+
+4. Comments: /*-----*/
+
+5. External style sheet:  <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+6. Internal styles are defined within the <style> element, inside the <head> section of an HTML page:
+
+7. An inline style may be used to apply a unique style for a single element: <h1 style="color:blue;margin-left:30px;">This is a heading.</h1>
+
+8. 
